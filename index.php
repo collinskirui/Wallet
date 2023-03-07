@@ -5,10 +5,8 @@ require_once 'vendor/autoload.php';
 use IntaSend\IntaSendPHP\Wallet;
 
 $credentials = [
-    'token'=>'<ISSecretKey_test_a06bbb14-e55b-47be-b1d4-d72094bd488a>',
-    //'token'=>'<YOUR-TOKEN-HERE>',
-    'publishable_key'=>'<ISPubKey_test_1c0fba3d-b962-4465-b045-ab2963abdcfb>',
-    //'publishable_key'=>'<YOUR-PUBLISHABLE_KEY-HERE>',
+    'token'=>'<YOUR-TOKEN-HERE>',
+    'publishable_key'=>'<YOUR-PUBLISHABLE_KEY-HERE>',
     'test'=>true,
 ];
 
